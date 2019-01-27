@@ -59,9 +59,9 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash[:winter].map do |holiday, a|
     a
   end
-  arr.flatten
-  p arr
-  return arr
+  a.flatten
+  p a
+  return a
 end
 
 def all_supplies_in_holidays(holiday_hash)
