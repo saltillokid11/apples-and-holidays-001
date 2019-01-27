@@ -49,12 +49,8 @@ end
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
   # remember to return the updated hash
-  p supply_array
-  puts "+++++++++++++++++++++++++++++++++++++++++++++"
-  p holiday_hash
-  puts "----------------------"
   holiday_hash[season][holiday_name] = supply_array
-  p holiday_hash
+return holiday_hash
 end
 
 def all_winter_holiday_supplies(holiday_hash)
