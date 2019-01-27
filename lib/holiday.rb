@@ -58,10 +58,6 @@ def all_winter_holiday_supplies(holiday_hash)
   arr = []
   holiday_hash[:winter].each do |holiday, a|
     arr << a
-    # a.each do |i|
-    #   arr << i
-    #   p arr
-    # end
   end
   flat = arr.flatten
   p flat
