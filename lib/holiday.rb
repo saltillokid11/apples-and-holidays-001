@@ -85,6 +85,6 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   arr = [];
   holiday_hash.each do |sea, hol|
-    
+    arr << hol
   end
 end
