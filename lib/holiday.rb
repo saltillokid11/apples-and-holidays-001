@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 
   holiday_hash.each do |season, holiday|
-    if season == :Winter || season == :Summer
+    if season == :winter || season == :summer
       puts season
     end
   end
