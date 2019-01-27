@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:"
     binding.pry
     holiday.each do |hol, sup|
-      puts "#{hol.to_s}:" + " " + "#{sup}"
+      puts "#{hol.to_s.split('_')}:" + " " + "#{sup}"
     end
   end
 
