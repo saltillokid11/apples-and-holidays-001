@@ -77,9 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.each do |hol, sup|
       # puts " #{hol.to_s.split('_')}"
     end
-    binding.pry
   end
-
 end
 
 def all_holidays_with_bbq(holiday_hash)
