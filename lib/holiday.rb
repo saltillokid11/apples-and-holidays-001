@@ -31,15 +31,10 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     if season == :winter
       holiday.each do |holiday, s|
         s << supply
-        # s.flatten
         p s
       end
     end
   end
- #  holiday_hash[:winter].each do |holiday, supplies|
- #   supplies << supply
- #   p supplies
- # end
 
   # return holiday_hash
 end
