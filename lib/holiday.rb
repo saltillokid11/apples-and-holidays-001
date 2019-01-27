@@ -64,8 +64,8 @@ def all_winter_holiday_supplies(holiday_hash)
     # end
   end
   flat = arr.flatten
-  p arr
-  return arr
+  p flat
+  return flat
 end
 
 def all_supplies_in_holidays(holiday_hash)
