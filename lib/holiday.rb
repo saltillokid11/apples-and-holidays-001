@@ -31,7 +31,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     if season == :winter
       holiday.each do |holiday, s|
         s << supply
-        s.flatten
+        # s.flatten
         p s
       end
     end
